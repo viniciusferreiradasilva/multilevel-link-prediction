@@ -1,2 +1,5 @@
 # multilevel-link-prediction
-A multilevel optimization for link prediction algorithms.
+
+Link prediction is a challenging task with applications in different domains. The rise of large-scale and complex networks which model social, technological, and biological scenarios has provoked a need for scalable link prediction approaches. The number of operations required for the link prediction methods makes the process of considering the whole network impracticable in most cases. 
+
+This repository presents an approach to reduce the number of operations required for link prediction using a multilevel optimization approach. For that, the network is reduced to a coarsened version, the link prediction algorithm is applied to this coarsened network and the prediction results are then projected back to the original network. The main advantage of this method is that can be used to reduce the execution time of any link prediction method and also considers the whole network for extracting the predictions. This repository contains two matching methods suited to link prediction and several similarity-based link prediction algorithms. 
